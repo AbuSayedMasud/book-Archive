@@ -41,7 +41,7 @@ const displayBooks = books => {
       
         <div class="row g-2">
               <div class="col-md-4 pb-2">
-                <img src="https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg" class="w-100  mt-3 rounded-start" alt="...">
+                <img src="https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg" class="w-100 mt-3 rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
