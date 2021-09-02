@@ -36,7 +36,7 @@ const displayBooks = books => {
 
       const div = document.createElement('div');
 
-      console.log(book.cover_i);
+      // console.log(book.cover_i);
       div.innerHTML = `
       
         <div class="row g-2">
