@@ -11,17 +11,7 @@ body
 /* common-area style end */
 /* main-area  start*/
 
-/* card style */
-.card{
-    margin: 20px 10px;
-    background-color: #f9f9f9;
-    max-width: 540px;
-    box-shadow: 10px 10px 10px gray;
-}
-/* card style end */
-/* main-area end*/
-
-/* footer-area */
+/* search result */
 .result
 {
     padding: 15px;
@@ -35,3 +25,13 @@ body
 
 
 }
+/* card style */
+.card{
+    margin: 20px 10px;
+    background-color: #f9f9f9;
+    max-width: 540px;
+    box-shadow: 10px 10px 10px gray;
+}
+/* card style end */
+/* main-area end*/
+
