@@ -3,14 +3,14 @@ document.getElementById('search-book').addEventListener('click', findValue = () 
   const inputValue = document.getElementById('search-text');
 
   //load data
-  const url = `http://openlibrary.org/search.json?q=${inputValue.value}`;
+  const url = `https://openlibrary.org/search.json?q=${inputValue.value}`;
 
   // clear
   inputValue.value = ' ';
 
   //  fetch
   fetch(url)
-    .then(res => res.json())
+    .then(response => response.json())
     .then(data => displayBooks(data))
 
 })
