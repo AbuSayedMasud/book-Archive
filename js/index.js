@@ -14,6 +14,8 @@ document.getElementById('search-book').addEventListener('click', findValue = () 
     .then(data => displayBooks(data))
 
 })
+// data catch area end
+
 // displaybook-area start
 const displayBooks = books => {
   const numberOfBooks = books.docs;
@@ -76,3 +78,4 @@ const displayBooks = books => {
   resultDiv.appendChild(h3);
   result.appendChild(resultDiv);
 }
+// search result load end
